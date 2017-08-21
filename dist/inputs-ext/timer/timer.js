@@ -150,13 +150,13 @@ $(function(){
     });
 
     Timer.defaults = $.extend({}, $.fn.editabletypes.abstractinput.defaults, {
-        tpl:    '<div class="editable-timer"><label><span>H : </span>'+
+        tpl:    '<div class="editable-timer floatleft"><label><span><i class="fa fa-clock-o fa-fw"></i>H</span>'+
                     '<input type="number" min="0" max="24" name="hour"></input>'+
                 '</label></div>'+
-                '<div class="editable-timer"><label><span>M: </span>'+
+                '<div class="editable-timer floatleft"><label><span><i class="fa fa-clock-o fa-fw"></i>M</span>'+
                     '<input type="number" min="0" max="59" name="min"></input>'+
                 '</label></div>'+
-                '<div class="editable-timer"><label><span>S: </span>'+
+                '<div class="editable-timer floatleft"><label><span><i class="fa fa-clock-o fa-fw"></i>S</span>'+
                     '<input type="number" min="0" max="59" name="sec"></input>'+
                 '</label></div>',
              
